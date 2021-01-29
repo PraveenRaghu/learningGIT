@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test parallel="tests" name=" Validate Title Test(failed)">
+    <classes>
+      <class name="Academy.E2E.ValidateTitle">
+        <methods>
+          <include name="HomePageNavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2E.ValidateTitle -->
+      <class name="Academy.E2E.HomePage">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2E.HomePage -->
+    </classes>
+  </test> <!--  Validate Title Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
